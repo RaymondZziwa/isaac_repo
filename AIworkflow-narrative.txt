@@ -1,0 +1,13 @@
+AI Workflow Narrative
+
+For this project, I strategically integrated AI tools to enhance both creativity and efficiency in designing my website. I used ChatGPT for generating copy, including headings, product descriptions, and marketing taglines, ensuring the content was engaging, clear, and aligned with the brand’s zero-waste ethos. Canva AI was utilized to create high-quality visuals and banners, while Sora assisted in producing a short promotional video for the homepage, making the website more interactive and visually appealing.
+
+Two key AI prompts I used were:
+
+1. “Generate 5 creative taglines for a zero-waste skincare brand targeting millennials.”
+
+2. “Design a visually appealing hero image for EcoGlow’s homepage highlighting sustainability.”
+
+The outputs from AI were not used verbatim; I customized them to match my brand identity. For example, I refined ChatGPT’s taglines to better reflect EcoGlow’s tone and simplified some phrases for clarity. Canva AI visuals were edited for color harmony, consistency with my logo, and responsive layout across devices. The Sora video was trimmed and overlaid with text captions to emphasize key product benefits.
+
+AI significantly accelerated the content creation process and inspired design ideas that I might not have conceived manually. It allowed me to experiment with multiple options quickly, helping me make informed decisions about visuals, messaging, and overall user experience. Integrating AI thoughtfully ensured that the final website was cohesive, professional, and strategically aligned with the project’s objectives, while also demonstrating responsible and creative AI usage.
