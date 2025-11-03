@@ -28,16 +28,18 @@
     .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(6px); }
   </style>
 </head>
-<body class="bg-forest text-gray-100 antialiased">
+<body class="bg-forest text-gray-100 antialiased pt-20">
 
   <!-- NAV -->
-  <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+<!-- NAV -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-forest/95 backdrop-blur-md shadow-md">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-green-50">
     <a href="index.html" class="flex items-center gap-3">
-      <!-- replace src with your logo file -->
       <img src="assets/eco-logo.png" alt="EcoGlow logo" class="w-11 h-11 rounded-full object-cover border border-white/10 shadow-sm"/>
       <span class="font-serif text-2xl">EcoGlow</span>
     </a>
 
+    <!-- desktop menu -->
     <div class="hidden md:flex items-center gap-8 text-sm">
       <a href="index.html" class="hover:underline">Home</a>
       <a href="about.html" class="hover:underline">About</a>
@@ -47,10 +49,25 @@
     </div>
 
     <!-- mobile icon -->
-    <button id="mobileToggle" class="md:hidden p-2 bg-white/5 rounded">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>
+    <button id="mobileToggle" class="md:hidden p-2 bg-white/10 rounded">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
+      </svg>
     </button>
-  </nav>
+  </div>
+
+  <!-- mobile menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-forest/95 backdrop-blur-md border-t border-green-700/30 text-green-50">
+    <div class="flex flex-col items-center py-4 space-y-4">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="products.html" class="hover:underline">Products</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="products.html" class="bg-green-200 text-green-900 px-5 py-2 rounded-full font-semibold">Shop Now</a>
+    </div>
+  </div>
+</nav>
+
 
   <!-- HERO -->
   <header class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
