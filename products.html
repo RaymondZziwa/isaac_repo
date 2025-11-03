@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>EcoGlow Products — Natural Skin Solutions</title>
+  <meta name="description" content="Explore EcoGlow's eco-friendly skincare range: moisturizers, cleansers, serums — sustainably designed." />
+  <meta name="keywords" content="eco-friendly skincare, sustainable products, natural serums, green cleanser" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-forest { background: linear-gradient(180deg,#0b3b23 0%, #0e3f28 100%); }
+  </style>
+</head>
+<body class="bg-forest text-green-50 antialiased">
+
+<nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <!-- replace src with your logo file -->
+      <img src="assets/eco-logo.png" alt="EcoGlow logo" class="w-11 h-11 rounded-full object-cover border border-white/10 shadow-sm"/>
+      <span class="font-serif text-2xl">EcoGlow</span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8 text-sm">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="products.html" class="hover:underline">Products</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="products.html" class="ml-2 inline-block bg-green-200 text-green-900 px-4 py-2 rounded-full font-medium">Shop Now</a>
+    </div>
+
+    <!-- mobile icon -->
+    <button id="mobileToggle" class="md:hidden p-2 bg-white/5 rounded">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </nav>
+
+
+  <main class="max-w-7xl mx-auto px-6 py-8">
+    <h1 class="text-3xl font-semibold mb-4">Shop our Collection</h1>
+    <p class="text-green-100/80 mb-6">Clean formulas, refillable packaging — made for mindful beauty.</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Product card template repeated -->
+      <div class="bg-white/3 rounded-2xl p-4 shadow hover:scale-[1.02] transition">
+        <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="Radiant Earth Moisturizer jar with bamboo lid" class="w-full h-56 object-cover rounded-lg mb-4" />
+        <h3 class="font-semibold text-lg">Radiant Earth Moisturizer</h3>
+        <p class="text-sm text-green-100/80 mt-1">50ml — aloe & vitamin oils — refillable.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <div class="font-bold">UGX 85,000</div>
+          <button class="bg-green-200 text-green-900 px-4 py-2 rounded-full">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="bg-white/3 rounded-2xl p-4 shadow hover:scale-[1.02] transition">
+        <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="Green Harmony Cleanser bottle beside leaves" class="w-full h-56 object-cover rounded-lg mb-4" />
+        <h3 class="font-semibold text-lg">Green Harmony Cleanser</h3>
+        <p class="text-sm text-green-100/80 mt-1">120ml — green tea & chamomile.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <div class="font-bold">UGX 55,000</div>
+          <button class="bg-green-200 text-green-900 px-4 py-2 rounded-full">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="bg-white/3 rounded-2xl p-4 shadow hover:scale-[1.02] transition">
+        <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="Renew Serum dropper bottle with leaves" class="w-full h-56 object-cover rounded-lg mb-4" />
+        <h3 class="font-semibold text-lg">Renew Serum</h3>
+        <p class="text-sm text-green-100/80 mt-1">30ml — antioxidant-rich concentrate.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <div class="font-bold">UGX 120,000</div>
+          <button class="bg-green-200 text-green-900 px-4 py-2 rounded-full">Add to cart</button>
+        </div>
+      </div>
+
+      <!-- Repeat two more cards with varied unsplash queries -->
+      <div class="bg-white/3 rounded-2xl p-4 shadow hover:scale-[1.02] transition">
+        <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="Refill pouch for EcoGlow" class="w-full h-56 object-cover rounded-lg mb-4" />
+        <h3 class="font-semibold text-lg">Refill Pouch</h3>
+        <p class="text-sm text-green-100/80 mt-1">Economical and eco-friendly refill options.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <div class="font-bold">UGX 35,000</div>
+          <button class="bg-green-200 text-green-900 px-4 py-2 rounded-full">Add</button>
+        </div>
+      </div>
+
+      <div class="bg-white/3 rounded-2xl p-4 shadow hover:scale-[1.02] transition">
+        <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="EcoGlow botanical extract imagery" class="w-full h-56 object-cover rounded-lg mb-4" />
+        <h3 class="font-semibold text-lg">Botanical Extracts</h3>
+        <p class="text-sm text-green-100/80 mt-1">Pure extracts used across our range.</p>
+        <div class="mt-4 flex items-center justify-between">
+          <div class="font-bold">UGX 45,000</div>
+          <button class="bg-green-200 text-green-900 px-4 py-2 rounded-full">Add</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="max-w-7xl mx-auto px-6 py-8 text-center text-green-100/80">© <span id="yr4"></span> EcoGlow</footer>
+  <script>document.getElementById('yr4').textContent = new Date().getFullYear();</script>
+</body>
+</html>

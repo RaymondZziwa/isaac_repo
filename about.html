@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About EcoGlow — Harmony in Sustainable Beauty</title>
+  <meta name="description" content="Learn how EcoGlow combines natural ingredients and innovative science to nurture your glow and the planet." />
+  <meta name="keywords" content="sustainable skincare brand, eco skincare, harmony in diversity, SCI principle" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .bg-forest { background: linear-gradient(180deg,#0b3b23 0%, #0e3f28 100%); }
+    .fade { animation: fadeIn .7s ease forwards; opacity:0; transform:translateY(8px); }
+    @keyframes fadeIn { to { opacity:1; transform:none; } }
+  </style>
+</head>
+<body class="bg-forest text-green-50 antialiased">
+
+<nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <!-- replace src with your logo file -->
+      <img src="assets/eco-logo.png" alt="EcoGlow logo" class="w-11 h-11 rounded-full object-cover border border-white/10 shadow-sm"/>
+      <span class="font-serif text-2xl">EcoGlow</span>
+    </a>
+
+    <div class="hidden md:flex items-center gap-8 text-sm">
+      <a href="index.html" class="hover:underline">Home</a>
+      <a href="about.html" class="hover:underline">About</a>
+      <a href="products.html" class="hover:underline">Products</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+      <a href="products.html" class="ml-2 inline-block bg-green-200 text-green-900 px-4 py-2 rounded-full font-medium">Shop Now</a>
+    </div>
+
+    <!-- mobile icon -->
+    <button id="mobileToggle" class="md:hidden p-2 bg-white/5 rounded">
+      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/></svg>
+    </button>
+  </nav>
+
+
+  <main class="max-w-6xl mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+    <section class="space-y-4">
+      <h1 class="text-3xl md:text-4xl font-serif">Our Story</h1>
+      <p class="text-green-100/90">Founded to prove skincare and sustainability can coexist, EcoGlow crafts formulas built from responsibly sourced botanicals and scientifically proven actives. Our packaging is refill-first and recyclable.</p>
+
+      <h2 class="mt-4 text-xl font-semibold">Our Commitments</h2>
+      <ul class="mt-2 space-y-2 text-green-100/80">
+        <li>♻️ Refillable & biodegradable packaging</li>
+        <li>🌱 Ethically sourced ingredients</li>
+        <li>🔬 Transparent formulas & clinical testing</li>
+      </ul>
+
+      <div class="mt-6 bg-white/3 rounded-lg p-5 glass">
+        <h3 class="font-semibold">SCI Principle: Harmony in Diversity</h3>
+        <p class="text-green-100/90 mt-2">We apply the Science of Creative Intelligence by designing harmonized formulations where botanical diversity meets scientific rigor. This principle shapes product design, packaging choices and customer education.</p>
+      </div>
+    </section>
+
+    <aside class="space-y-4">
+      <img src="assets/shahid-hafiz-CMF0ezqoNNc-unsplash.jpg" alt="Sustainable production and laboratory research imagery" class="rounded-2xl shadow-lg fade" />
+    </aside>
+  </main>
+
+  <section class="max-w-6xl mx-auto px-6 py-8">
+    <h3 class="text-xl font-semibold mb-4">Meet the Founders</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="bg-white/3 rounded-lg p-4 flex items-center gap-4">
+        <img src="assets/alex-starnes-PK_t0Lrh7MM-unsplash.jpg" alt="Aisha founder portrait" class="w-20 h-20 rounded-full object-cover"/>
+        <div>
+          <div class="font-semibold">Aisha Namusoke</div>
+          <div class="text-sm text-green-100/80">Head of Formulation</div>
+        </div>
+      </div>
+
+      <div class="bg-white/3 rounded-lg p-4 flex items-center gap-4">
+        <img src="assets/fortune-vieyra-qC7jvmbEmRQ-unsplash.jpg" alt="Daniel founder portrait" class="w-20 h-20 rounded-full object-cover"/>
+        <div>
+          <div class="font-semibold">Daniel Kato</div>
+          <div class="text-sm text-green-100/80">Sustainability Lead</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="max-w-6xl mx-auto px-6 py-8 text-center text-green-100/70">© <span id="y2"></span> EcoGlow — Harmony in Diversity</footer>
+
+  <script>document.getElementById('y2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
