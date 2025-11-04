@@ -8,14 +8,13 @@
   <meta name="keywords" content="natural skincare, zero waste beauty, eco skincare, sustainable skincare, green beauty" />
   <link rel="icon" href="assets/favicon.png" />
 
-  <!-- GA4 placeholder: replace G-XXXXXXXXXX -->
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
 
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <style>
-    /* custom animations */
+    /* animations */
     @keyframes floatY { 0%{transform:translateY(0)}50%{transform:translateY(-8px)}100%{transform:translateY(0)} }
     .float-slow { animation: floatY 6s ease-in-out infinite; }
     .fade-up { transform: translateY(12px); opacity: 0; animation: fadeUp 0.9s ease forwards; }
@@ -23,11 +22,9 @@
     .bg-forest {
       background: linear-gradient(180deg,#0b3b23 0%, #0e3f28 50%, #16603a 100%);
     }
-    /* subtle glass effect */
     .glass { background: rgba(255,255,255,0.03); backdrop-filter: blur(6px); }
   </style>
 </head>
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BCCRYD6VDX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -38,8 +35,6 @@
 </script>
 <body class="bg-forest text-gray-100 antialiased pt-20">
 
-  <!-- NAV -->
-<!-- NAV -->
 <nav class="fixed top-0 left-0 w-full z-50 bg-forest/95 backdrop-blur-md shadow-md">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between text-green-50">
     <a href="index.html" class="flex items-center gap-3">
@@ -47,7 +42,6 @@
       <span class="font-serif text-2xl">EcoGlow</span>
     </a>
 
-    <!-- desktop menu -->
     <div class="hidden md:flex items-center gap-8 text-sm">
       <a href="index.html" class="hover:underline">Home</a>
       <a href="about.html" class="hover:underline">About</a>
@@ -56,7 +50,6 @@
       <a href="products.html" class="ml-2 inline-block bg-green-200 text-green-900 px-4 py-2 rounded-full font-medium">Shop Now</a>
     </div>
 
-    <!-- mobile icon -->
     <button id="mobileToggle" class="md:hidden p-2 bg-white/10 rounded">
       <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"/>
@@ -64,7 +57,6 @@
     </button>
   </div>
 
-  <!-- mobile menu -->
   <div id="mobileMenu" class="hidden md:hidden bg-forest/95 backdrop-blur-md border-t border-green-700/30 text-green-50">
     <div class="flex flex-col items-center py-4 space-y-4">
       <a href="index.html" class="hover:underline">Home</a>
@@ -77,7 +69,6 @@
 </nav>
 
 
-  <!-- HERO -->
   <header class="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
     <div class="space-y-6">
       <h1 class="text-4xl md:text-6xl font-serif leading-tight tracking-tight fade-up" style="animation-delay:0.1s">
@@ -92,7 +83,6 @@
         <a href="about.html" class="text-sm text-green-50/90 underline">Learn our philosophy</a>
       </div>
 
-      <!-- badges -->
       <div class="mt-6 flex gap-4">
         <span class="glass px-4 py-2 rounded-lg text-sm">♻️ Zero-waste</span>
         <span class="glass px-4 py-2 rounded-lg text-sm">🔬 Science-backed</span>
@@ -101,24 +91,20 @@
     </div>
 
     <div class="relative">
-      <!-- large hero image from Unsplash -->
       <img src="assets/angele-kamp-kcvRHtAyuig-unsplash.jpg" alt="EcoGlow green skincare bottles with leaves" class="w-full md:ml-auto rounded-2xl shadow-xl float-slow" />
-      <!-- decorative leaf overlay -->
       <img src="assets/els-cattrysse-5b3ca3RmHWs-unsplash.jpg" alt="leaf texture" class="absolute -bottom-4 -right-6 w-40 opacity-40 rotate-6 hidden md:block" />
     </div>
   </header>
 
-  <!-- featured -->
   <section class="max-w-7xl mx-auto px-6 py-10">
     <h2 class="text-2xl font-semibold mb-3">Featured Products</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- card -->
       <article class="bg-white/3 rounded-2xl p-5 shadow-md hover:scale-[1.02] transform transition">
         <img src="assets/ran-liwen-WlxmSGMtUP4-unsplash.jpg" alt="Radiant Earth Moisturizer jar with bamboo lid" class="w-full h-48 object-cover rounded-lg mb-4" />
         <h3 class="font-semibold text-lg">Radiant Earth Moisturizer</h3>
         <p class="text-sm text-green-100/80 mt-1">Hydrating blend of aloe and vitamin-rich oils — glass jar, refillable.</p>
         <div class="mt-4 flex items-center justify-between">
-          <span class="font-bold">UGX 85,000</span>
+          <span class="font-bold">USD 14</span>
           <a href="products.html" class="text-sm bg-green-200 text-green-900 px-3 py-2 rounded-full">Buy</a>
         </div>
       </article>
@@ -128,7 +114,7 @@
         <h3 class="font-semibold text-lg">Green Harmony Cleanser</h3>
         <p class="text-sm text-green-100/80 mt-1">Green tea and chamomile for balanced, refreshed skin.</p>
         <div class="mt-4 flex items-center justify-between">
-          <span class="font-bold">UGX 55,000</span>
+          <span class="font-bold">USD 55</span>
           <a href="products.html" class="text-sm bg-green-200 text-green-900 px-3 py-2 rounded-full">Buy</a>
         </div>
       </article>
@@ -138,14 +124,13 @@
         <h3 class="font-semibold text-lg">Renew Serum</h3>
         <p class="text-sm text-green-100/80 mt-1">Antioxidant-rich formula for luminous skin.</p>
         <div class="mt-4 flex items-center justify-between">
-          <span class="font-bold">UGX 120,000</span>
+          <span class="font-bold">USD 120</span>
           <a href="products.html" class="text-sm bg-green-200 text-green-900 px-3 py-2 rounded-full">Buy</a>
         </div>
       </article>
     </div>
   </section>
 
-  <!-- SCI principle -->
   <section class="max-w-7xl mx-auto px-6 py-12 text-center">
     <div class="mx-auto max-w-3xl bg-white/4 rounded-2xl p-8 glass">
       <h3 class="text-xl font-semibold">Our Philosophy: Harmony in Diversity</h3>
@@ -154,7 +139,6 @@
     </div>
   </section>
 
-  <!-- footer -->
   <footer class="max-w-7xl mx-auto px-6 py-8 text-green-100/80">
     <div class="flex flex-col md:flex-row justify-between items-center gap-6">
       <div class="flex items-center gap-3">
@@ -179,7 +163,6 @@
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
   <script>
-  // ✅ mobile toggle logic
   const toggleBtn = document.getElementById('mobileToggle');
   const menu = document.getElementById('mobileMenu');
 
